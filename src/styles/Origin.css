@@ -55,12 +55,15 @@
         font-size: 16px;
     }
 
-    .origin-container > h1,
+    .origin-container > h1 {
+        font-size: 28px;
+    }
+
     .origin-text > h3 {
         font-size: 24px;
     }
 
-    .coffee-collage>img {
+    .coffee-collage > img {
         width: 220px;
         height: auto;
     }

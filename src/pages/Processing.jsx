@@ -39,7 +39,7 @@ const Processing = () => {
               Let's dive in to learn more about each process and flavor
               characteristics that come with that.
             </p>
-            <div style={{ display: "flex", gap: 15 }} className="sensory-box">
+            <div style={{ display: "flex", gap: 15, padding: 30 }} className="sensory-box">
               <img className="icon" src={waterIcon} alt="water icon" />
               <p>Water used in processing method</p>
               <img className="icon" src={smellIcon} alt="nose icon" />

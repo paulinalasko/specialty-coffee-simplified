@@ -16,3 +16,17 @@
     flex-direction: column;
     gap: 20px;
 }
+
+/* Media-Queries */
+
+@media (max-width: 800px) {
+
+    div > h1 {
+        font-size: 28px;
+    }
+
+    .specialty-container {
+        font-size: 16px;
+    }
+
+}

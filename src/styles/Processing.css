@@ -126,6 +126,10 @@
         gap: 10px;
     }
 
+    .processing-links {
+        gap: 20px;
+    }
+
     .sensory-box > p {
         margin-left: 10px;
         font-size: 12px;
@@ -136,11 +140,11 @@
         height: 25px;
     }
 
-        .about-processing,
-        .washed-container,
-        .natural-container,
-        .honey-container {
-            padding: 0px;
-        }
+    .about-processing,
+    .washed-container,
+    .natural-container,
+    .honey-container {
+        padding: 0px;
+    }
 
 }
