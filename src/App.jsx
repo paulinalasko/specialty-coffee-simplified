@@ -29,7 +29,7 @@ function App() {
           path="/specialty-coffee-simplified/specialty-coffee"
           element={<Specialty />}
         />
-        <Route exact path="/specialty-coffee-simplified/" element={<Home />} />
+        <Route path="/specialty-coffee-simplified/" element={<Home />} />
       </Routes>
       <Footer />
     </>
