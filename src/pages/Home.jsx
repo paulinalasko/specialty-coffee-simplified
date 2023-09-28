@@ -75,16 +75,28 @@ const Home = () => {
           Let's explore the journey of coffee. What are you interested in?
         </h1>
         <div className="directory-boxes">
-          <NavLink className="directory-link green" to="/origin">
+          <NavLink
+            className="directory-link green"
+            to="/specialty-coffee-simplified/origin"
+          >
             Coffee Origin
           </NavLink>
-          <NavLink className="directory-link purple" to="/regions">
+          <NavLink
+            className="directory-link purple"
+            to="/specialty-coffee-simplified/regions"
+          >
             Regions
           </NavLink>
-          <NavLink className="directory-link yellow" to="/processing">
+          <NavLink
+            className="directory-link yellow"
+            to="/specialty-coffee-simplified/processing"
+          >
             Coffee Processing
           </NavLink>
-          <NavLink className="directory-link blue" to="/specialty-coffee">
+          <NavLink
+            className="directory-link blue"
+            to="/specialty-coffee-simplified/specialty-coffee"
+          >
             Specialty Coffee
           </NavLink>
         </div>

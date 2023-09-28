@@ -2,6 +2,8 @@
 
 Specialty Coffee Simplified is a website that will help inform you about specific types of coffees if you're a coffee nerd like me! It will provide you with different types of information regarding what each region in the world offers coffee wise and what flavor profiles come along with that. It also will have a section that explains different coffee bean processing techniques along with what Specialty Coffee actually means!
 
+Check out the live demo [here](https://paulinalasko.github.io/specialty-coffee-simplified/)!
+
 ## Built with:
 -React + Vite\
 -Bootstrap\
