@@ -1,0 +1,182 @@
+* {
+    scroll-margin-top: 170px;
+}
+
+.sticky {
+    position: sticky;
+    top: 125px;
+}
+
+.region-nav {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: rgb(209, 164, 252);
+}
+
+.regions-container {
+    background-color: #ECCAFF;
+    padding: 40px;
+    margin: 10px;
+    font-size: 22px;
+}
+
+.region-header {
+    display: flex;
+    gap: 180px;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.region-links {
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+}
+
+.region-link {
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.region-sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.central-south-container,
+.africa-container, .middle-east-container,
+.asia-container {
+    border-bottom: 1px dotted black;
+    padding: 15px;
+}
+
+.about-container, .about-text, .americas-text,
+.africa-text, .middle-east-text, .asia-text {
+    margin-top: 30px;
+}
+
+.central-south-container, .africa-container,
+.middle-east-container, .asia-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    gap: 50px;
+}
+
+.flex-row {
+    display: flex;
+    align-items: flex-start;   
+}
+
+.resize-img {
+    width: 375px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Pseudo Classes */
+
+.region-link:hover {
+    transform: scale(1.05);
+}
+
+/* Media-Queries */
+
+@media (max-width: 950px) {
+
+    .sticky {
+        top: 70px;
+    }
+    
+    .region-sections,
+    .region-link,
+    .americas-text,
+    .africa-text,
+    .middle-east-text,
+    .asia-text {
+        font-size: 18px;
+    }
+    
+    div>h2 {
+        font-size: 25px;
+    }
+    
+    div>h1 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 850px) {
+
+    .region-sections,
+    .region-link, .americas-text,
+    .africa-text, .middle-east-text,
+    .asia-text {
+        font-size: 13px;
+    }
+
+    div > h2 {
+        font-size: 22px;
+    }
+
+    div > h1 {
+        font-size: 28px;
+    }
+
+    .region-links {
+        gap: 50px;
+    }
+
+    .resize-img {
+        width: 215px;
+        height: auto;
+    }
+}
+
+@media (max-width: 650px) {
+
+    .flex-row {
+        flex-wrap: wrap;
+    }
+
+    .img-container {
+        flex-direction: row;
+        gap: 5px;
+    }
+}
+
+@media (max-width: 550px) {
+    
+    .resize-img {
+        width: 155px;
+        height: auto;
+    }
+
+    .americas-text, .africa-text,
+    .middle-east-text, .asia-text, 
+    .about-text
+    {
+        padding: 20px;
+        margin-top: -10px;
+    }
+
+    div > h2 {
+    display: flex;
+    justify-content: center;
+    }
+
+    .region-links {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    
+}

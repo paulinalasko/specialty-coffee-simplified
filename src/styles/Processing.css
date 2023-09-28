@@ -1,0 +1,146 @@
+* {
+    scroll-margin-top: 170px;
+}
+
+.top-section {
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.processing-container {
+    background-color: #fff1b7;
+    padding: 40px;
+    margin: 10px;
+    font-size: 22px;
+}
+
+.processing-header {
+    display: flex;
+    gap: 180px;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.process-nav {
+    background-color: rgb(250, 188, 71);
+    border: 1px solid black;
+}
+
+.processing-links {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.processing-link {
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.processing-sections {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.about-processing, .washed-container,
+.natural-container, .honey-container {
+    border-bottom: 1px dotted black;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.mg-bottom {
+    margin-bottom: 30px;
+}
+
+.flex-row > img {
+    width: 35px;
+}
+
+.icon {
+    width: 45px;
+    height: 45px;
+}
+
+/* Pseudo-classes */
+
+.processing-link:hover {
+    transform: scale(1.05);
+}
+
+/* Media-Queries */
+
+@media (max-width: 800px) {
+    
+    .sticky {
+        top: 70px;
+    }
+
+    .processing-sections, .processing-link,
+    .sensory-box > p {
+        font-size: 13px;
+    }
+
+    div > h1 {
+        font-size: 28px;
+    }
+
+    .flex-row>img {
+        width: 25px;
+    }
+
+    .icon {
+        width: 35px;
+        height: 35px;
+    }
+
+    .flex-row {
+        gap: 20px
+    }
+
+    .processing-links {
+        gap: 50px;
+    }
+}
+
+@media (max-width: 620px) {
+
+    .sticky {
+        top: 90px;
+    }
+
+    .flex-row {
+        gap: 10px;
+    }
+
+    .sensory-box > p {
+        margin-left: 10px;
+        font-size: 12px;
+    }
+
+    .icon {
+        width: 25px;
+        height: 25px;
+    }
+
+        .about-processing,
+        .washed-container,
+        .natural-container,
+        .honey-container {
+            padding: 0px;
+        }
+
+}
